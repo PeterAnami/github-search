@@ -9,7 +9,7 @@ import {User} from '../user';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  public searchMe = 'peter';
+  public searchMe = 'Anami';
     public githubUser!: string;
 
     users: User ;

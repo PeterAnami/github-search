@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {SearchRequestService} from '../search-request.service';
-import {Repository} from '../repository';
+import {SearchRequestService} from 'src/app/search-request.service';
+import {Repository} from 'src/app/repository';
 
 
 @Component({
@@ -11,7 +11,7 @@ import {Repository} from '../repository';
 })
 export class RepositoriesComponent implements OnInit {
 
-  repository: Repository;
+  repository!: Repository;
     public searchRepo!: string;
     public resultCount = 12;
 

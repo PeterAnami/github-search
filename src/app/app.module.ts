@@ -5,7 +5,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 
-import { AppRoutingModule } from './app-routing.module';
+// import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UpperCasePipe } from './upper-case.pipe';
 import { RepositoriesComponent } from './repositories/repositories/repositories.component';
@@ -31,9 +31,9 @@ import {SearchRequestService} from './search-request.service';
     RouterModule,
     FormsModule,
     NgProgressModule,
-    NgProgressHttpModule,
-    HttpClientModule,
-    AppRoutingModule
+    NgProgressHttpModule.forRoot(),
+    HttpClientModule
+    // AppRoutingModule
   ],
   providers: [SearchRequestService],
   bootstrap: [AppComponent]

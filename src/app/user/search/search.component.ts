@@ -9,12 +9,12 @@ import {User} from 'src/app/user';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  public searchMe = 'Anami';
-    public githubUser!: string;
+  public searchMe = 'PeterAnami';
+    public githubUser: string;
 
-    users!: User;
-    repository!: Repository;
-    public searchRepo!: string;
+    users: User;
+    repository: Repository;
+    public searchRepo: string;
     public resultCount = 12;
 
 

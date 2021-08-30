@@ -18,7 +18,7 @@ export class SearchRequestService {
       this.users = new User('', '', '', 0, '', new Date(), 0, 0);
   }
 
-  githubUser(searchName) {
+  githubUser(searchName: string) {
       interface ApiResponse {
           name: string;
           html_url: string;
@@ -48,7 +48,7 @@ export class SearchRequestService {
 
   }
 
-  gitUserRepos(searchMe) {
+  gitUserRepos(searchMe: string) {
       interface ApiResponse {
           name: string;
           description: string;

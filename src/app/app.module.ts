@@ -31,7 +31,7 @@ import {SearchRequestService} from './search-request.service';
     RouterModule,
     FormsModule,
     NgProgressModule,
-    NgProgressHttpModule.forRoot(),
+    NgProgressHttpModule,
     HttpClientModule
     // AppRoutingModule
   ],

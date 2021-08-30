@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {SearchRequestService} from '../search-request.service';
-import {Repository} from '../repository';
-import {User} from '../user';
+import {SearchRequestService} from 'src/app/search-request.service';
+import {Repository} from 'src/app/repository';
+import {User} from 'src/app/user';
 
 @Component({
   selector: 'app-search',
@@ -12,8 +12,8 @@ export class SearchComponent implements OnInit {
   public searchMe = 'Anami';
     public githubUser!: string;
 
-    users: User ;
-    repository: Repository;
+    users!: User;
+    repository!: Repository;
     public searchRepo!: string;
     public resultCount = 12;
 

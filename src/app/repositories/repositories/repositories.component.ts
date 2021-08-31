@@ -11,8 +11,8 @@ import {Repository} from 'src/app/repository';
 })
 export class RepositoriesComponent implements OnInit {
 
-  repository: Repository;
-    public searchRepo: string;
+  repository: Repository | undefined;
+    public searchRepo: string | undefined;
     public resultCount = 12;
 
     searchRepos() {

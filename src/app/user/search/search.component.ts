@@ -10,7 +10,7 @@ import {User} from 'src/app/user';
 })
 export class SearchComponent implements OnInit {
   public searchMe = 'PeterAnami';
-    public githubUser:'';
+    public githubUser:"";
 
     users: User;
     repository: Repository;

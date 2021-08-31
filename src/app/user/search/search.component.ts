@@ -10,11 +10,11 @@ import {User} from 'src/app/user';
 })
 export class SearchComponent implements OnInit {
   public searchMe = 'PeterAnami';
-    public githubUser:'';
+    public githubUser:'' | undefined;
 
-    users: User;
-    repository: Repository;
-    public searchRepo: string;
+    users!: User;
+    repository!: Repository;
+    public searchRepo!: string;
     public resultCount = 12;
 
 

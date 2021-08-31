@@ -10,7 +10,7 @@ export class SearchFormComponent implements OnInit {
   searchInfo = new Search('');
   @Output() getName = new EventEmitter<Search>();
 
-  searchFor(data){
+  searchFor(data: { value: { find: Search | undefined; }; reset: () => void; }){
       this.getName.emit(data.value.find);
       console.log(data.value.find)
       data.reset();

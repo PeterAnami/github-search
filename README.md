@@ -13,6 +13,7 @@ No bugs and technicalities
 ## Technologies Used
 HTML
 CSS
+JS
 Typescript
 ## Support and contact details
 Instagram Platnumzpeter

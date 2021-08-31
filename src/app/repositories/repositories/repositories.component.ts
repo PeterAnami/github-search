@@ -12,7 +12,7 @@ import {Repository} from 'src/app/repository';
 export class RepositoriesComponent implements OnInit {
 
   repository: Repository | undefined;
-    public searchRepo: string | undefined;
+    public searchRepo!: string;
     public resultCount = 12;
 
     searchRepos() {

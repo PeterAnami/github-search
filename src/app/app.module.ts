@@ -9,13 +9,13 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HighlightsDirective } from './highlights.directive';
-import { CustomDateFormat } from './date.pipe';
+import { customDateFormat } from './date.pipe';
 
 @NgModule({
   declarations: [
     AppComponent, 
     ProfileComponent, 
-    CustomDateFormat, 
+    customDateFormat, 
     FooterComponent, 
     HomeComponent, 
     HighlightsDirective

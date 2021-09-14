@@ -1,12 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "3346d1e9-ebae-48f1-a06b-2081373f09f2"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Github-search": {
+    "search": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Github-search",
+            "outputPath": "dist/search",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Github-search:build:production"
+              "browserTarget": "search:build:production"
             },
             "development": {
-              "browserTarget": "Github-search:build:development"
+              "browserTarget": "search:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Github-search:build"
+            "browserTarget": "search:build"
           }
         },
         "test": {
@@ -105,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "Github-search"
+  "defaultProject": "search"
 }

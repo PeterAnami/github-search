@@ -8,26 +8,25 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
-import { DatePipe } from './date.pipe';
 import { HighlightsDirective } from './highlights.directive';
+import { CustomDateFormat } from './date.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FooterComponent,
-    HomeComponent,
-    ProfileComponent,
-    ProfileService,
-    FormsModule,
-    HttpClientModule ,
-    DatePipe,
+    AppComponent, 
+    ProfileComponent, 
+    CustomDateFormat, 
+    FooterComponent, 
+    HomeComponent, 
     HighlightsDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule, 
+    HttpClientModule,
+    HttpClientModule,
     FormsModule
+
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]

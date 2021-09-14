@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import{ProfileService} from "";
-import{CustomDateFormat} from "";
+import{ProfileService} from "../profile.service";
+import{DatePipe} from "../date.pipe";
 
 @Component({
   selector: 'app-profile',

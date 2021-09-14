@@ -1,8 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.search-name {
+  padding-top: 50px;
+}
 /* You can add global styles to this file, and also import other style files */
 /* @import "~bootstrap/dist/css/bootstrap.css"; */
-
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 body {
   background-color: palegreen;
@@ -13,7 +13,6 @@ body {
   border: 1px solid rgb(110, 59, 14);
   padding: 2%;
   border-radius: 0.2rem;
-  border-radius: 1.5em;
 }
 
 #main {
@@ -29,24 +28,3 @@ body {
   padding: 5%;
   border-radius: 0.2rem;
 }
-
-.btn-center {
-  margin: 0 auto;
-  display: block;
-}
-
-.landing {
-  height: 100vh;
-  font-family: "Josefin Sans"
-}
-
-.landing h1 {
-  font-size: 5rem;
-  color: crimson;
-}
-
-.landing p {
-  font-size: 2rem;
-}
-
-

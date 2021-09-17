@@ -1,5 +1,5 @@
 :satisfied:
-#  AngularQuotes
+#  Github search
 #### This project searches through out your desired  github accounts, 2021 
 #### By **Peter Anami**&trade;
 
